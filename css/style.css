@@ -1,0 +1,471 @@
+body {
+	background: white url(../poze/fd.jpg) repeat left bottom;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+#background {
+	background: url(../poze/fd.jpg) repeat-x center top;
+	min-height: 1318px;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+img {
+	border: 0;
+}
+#navigation li, #navigation li a:hover, #navigation li.selected a {
+	background-image: url(../poze/bg-menu.png);
+	background-repeat: repeat-x;
+}
+#contents div.box, #contents div.box > div, #contents div.body {
+	background-image: url(../poze/content-box.png);
+	background-repeat: no-repeat;
+}
+#main div.box, #main div.box > div, #main div.box > div > div {
+	background-image: url(../poze/bg-box.png);
+	background-repeat: no-repeat;
+}
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+#titlu {
+	background-color: LightSeaGreen;
+	background:
+	font-family: Coudy Old Style, serif;
+	color: white;
+	margin-left:49px;
+	margin-right:49px;
+	
+	
+}
+/** Logo **/
+#logo {
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 49px;
+}
+/** Navigation **/
+#navigation {
+	background: url(../poze/bg-navigation.png) no-repeat;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+}
+#navigation ul {
+	display: inline-block;
+	width: 860px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	background-position: 0 -118px;
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 122px;
+	margin: 0;
+	padding-left: 1px;
+	text-align: center;
+}
+#navigation li:first-child {
+	background: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+#navigation li a {
+	color: #fff;
+	display: block;
+	font: bold 14px/48px Arial, Helvetica, sans-serif;
+	height: 49px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover {
+	background-position: 0 -59px;
+	color: #6d6157;
+}
+#navigation li.selected a {
+	background-position: 0 0;
+	color: #e4e1bd;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	display: inline-block;
+	width: 865px;
+	padding: 0 47px;
+}
+#contents h3 {
+	background-color:white;
+	color: gray;
+	font: 20px/25px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	
+}
+#contents div.body h1, #contents h2 {
+	color: #316e66;
+	font: 30px/30px "Times New Roman", Times, serif;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+}
+#contents h2 {
+	font-size: 22px;
+	margin: 0 0 30px;
+}
+#contents h2 a {
+	color: #2c9688;
+	text-decoration: none;
+}
+#contents p {
+	color: #5a4535;
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 24px 2px;
+}
+#contents p a {
+	color: #5a4535;
+}
+#contents p a:hover, #noutati div.sidebar ul li a:hover {
+	color: #917157;
+}
+/** box-shadow **/
+#contents div.box {
+	background-position: left bottom;
+	margin-bottom: 20px;
+	margin-left: 1px;
+	padding: 0 0 6px;
+}
+#contents div.box > div {
+	background-position: -1745px top;
+	padding: 6px 0 0;
+}
+#contents div.body {
+	background-position: -871px top;
+	background-repeat: repeat-y;
+	min-height: 980px;
+	padding: 30px 40px 0;
+}
+/** Adbox **/
+#adbox {
+	background: url(../poze/bg-adbox.png) no-repeat left top;
+	width: 852px;
+	margin: 0 auto;
+	padding: 4px 5px 18px;
+}
+#adbox p {
+	font-size: 16px;
+}
+.ads {
+	float: right;
+	width: 220px;
+	border-left: 1px solid #bbbbbb;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+hr {
+	border:0;
+	border-top: 1px solid #bbbbbb;
+	margin-bottom: 30px;
+}
+/** MAIN **/
+#main {
+	float: left;
+	min-height: 100px;
+	width: 566px;
+}
+#main div.box {
+	background-position: left bottom;
+	margin-bottom: 12px;
+	padding: 0 0 6px;
+}
+#main div.box > div {
+	background-color:lightgray;
+	background-position: -1145px top;
+	padding: 6px 0 0;
+}
+#main div.box > div > div {
+	background-color:lightgray;
+	background-position: -572px top;
+	background-repeat: repeat-y;
+	padding: 17px;
+}
+
+#main div.box h3 {
+	color: #316e66;
+	font-weight: normal;
+	letter-spacing: 1px;
+	border-bottom: 1px dotted #9c8964;
+	margin: 0;
+	padding: 0 0 12px;
+	text-transform: uppercase;
+}
+#main div.box marquee {
+	color: red;
+}
+#main div.box h4 {
+	font: 22px/24px "Times New Roman", Times, serif;
+	font-weight: normal;
+	margin: 6px 0 0;
+}
+#main div.box h4 a {
+	color: #5a4535;
+	text-decoration: none;
+}
+#main div.box ul {
+	background-color: white;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#main div.box ul li {
+	border-bottom: 1px dotted #9c8964;
+}
+#main div.box ul li span {
+	color: #5a4535;
+	display: block;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+#main div.box ul li p {
+	line-height: 24px;
+	padding: 0 0 3px;
+}
+/** SIDEBAR **/
+#sidebar {
+	float: right;
+	height: auto;
+	width: 285px;
+}
+#sidebar div.section {
+	height: 144px;
+	margin-bottom: 12px;
+}
+#sidebar div.section:first-child {
+	padding: 3px 0 0;
+}
+/** trasee **/
+#trasee  {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#trasee li {
+	display: inline-block;
+	width: 784px;
+	border-top: 1px solid #b7b7b7;
+	padding: 30px 0;
+	position: relative;
+}
+#trasee li:first-child {
+	border-top: 0;
+}
+#trasee li img {
+	float: left;
+	border: 1px solid #2c9688;
+	margin-right: 15px;
+}
+#trasee table {
+	background-color: Honeydew;
+	width:650px;
+	margin-left:70px;
+}
+/** turistic **/
+#turistic li > div.infos {
+	height: 200px;
+	width: 780px;
+	position: relative;
+	
+}
+#turistic li > div.infos p {
+	background-color: Azure; 
+	color: #DarkGreen;
+	display: none;
+	height: 260px;
+	width: 740px;
+	padding: 10px 20px 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#turistic li > div.infos p span {
+	display: block;
+	font: 22px/22px "Times New Roman", Times, serif;
+	color: navy;
+}
+#turistic li > div.infos:hover span.cover {
+	background: silver;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#turistic li > div.infos:hover p {
+	display: block;
+}
+/** Dive Site **/
+#imagini div.gallery {
+  margin: 2px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 160px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 160px;
+  height: 160px;
+}
+/** News **/
+#noutati {
+	display: inline-block;
+	width: 784px;
+}
+#noutati > div {
+	width: 560px;
+	border-right: 1px solid #bbbbbb;
+	padding-right: 35px;
+}
+#noutati > div img {
+	border: 1px solid #2c9688;
+	margin-bottom: 20px;
+}
+#noutati > div h2 {
+	margin-bottom: 12px;
+}
+#noutati > div span {
+	color: #5a4535;
+	display: block;
+	font: 15px/24px "Times New Roman", Times, serif;
+	margin-bottom: 30px;
+}
+#noutati > div span.author {
+	color: #2c9688;
+	display: block;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+#noutati div.sidebar {
+	float: right;
+	width: 160px;
+	border: 0;
+	padding: 0;
+}
+#noutati div.sidebar h3 {
+	color: #2c9688;
+	font-size: 20px;
+	font-weight: normal;
+	border-top: 1px solid #b7b7b7;
+	margin: 0 0 12px;
+	padding-top: 18px;
+	text-transform: uppercase;
+}
+#noutati div.sidebar h3:first-child {
+	border: 0;
+	padding-top: 0px;
+}
+#noutati div.sidebar ul {
+	list-style: none;
+	margin: 0 0 8px;
+	padding: 0;
+}
+#noutati div.sidebar ul li a {
+	color: #5a4535;
+	display: inline-block;
+	font-size: 15px;
+	margin-bottom: 6px;
+	text-decoration: none;
+}
+#noutati ul li {
+	margin-bottom: 12px;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	color: #594334;
+	font-size: 14px;
+	line-height: 48px;
+	margin: -38px 0 20px;
+	padding-top: 42px;
+	text-transform: uppercase;
+}
+#footer > div {
+	background-color: #ac9e94;
+	height: 48px;
+	width: 822px;
+	border-bottom: 1px solid #72675f;
+	border-top: 1px solid #cdbeb2;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: right;
+}
+#footer ul.navigation {
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer ul.navigation li {
+	float: left;
+	margin-right: 10px;
+}
+#footer ul.navigation li a {
+	color: #594334;
+	padding: 0 5px;
+	text-decoration: none;
+}
+#footer ul.navigation li:first-child a {
+	border-left: 0;
+	padding-left: 0;
+}
+#footer ul.navigation li a:hover {
+	color: #eee7c3;
+}
+#footer ul.navigation li.active a {
+	color: #fff;
+}
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: none;
+}
+/** Connect **/
+#connect {
+	float: right;
+	display: inline-block;
+	line-height: 26px;
+	margin: 12px 0 0;
+}
+#connect a {
+	background: url(../poze/iconss.jpg) no-repeat ;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	margin-left: 10px;
+}
+#connect a.facebook {
+	background-position: 0 -33px;
+}
+#connect a.pinterest {
+	background-position: 0 -98px;
+}
+#connect a.facebook:hover {
+	background-position: 0 0;
+}
+#connect a.pinterest:hover {
+	background-position: 0 -65px;
+}
+
+}
